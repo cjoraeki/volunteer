@@ -89,6 +89,9 @@
             </plugin>
 
         </plugins>
+
+        <finalName>volunteer-images</finalName>
+
     </build>
 
 </project>
