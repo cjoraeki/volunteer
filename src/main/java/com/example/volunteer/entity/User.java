@@ -3,7 +3,6 @@ package com.example.volunteer.entity;
 
 import com.example.volunteer.enums.Status;
 import lombok.*;
-
 import javax.persistence.*;
 
 
