@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class VolunteerApplication {
 
-    @GetMapping
+    @GetMapping("/welcome")
     public String message(){
         return "Welcome to Kuvuki Land!";
     }
@@ -22,10 +22,3 @@ public class VolunteerApplication {
     }
 
 }
-
-//    git init
-//    git add README.md
-//        git commit -m "first commit"
-//        git branch -M main
-//        git remote add origin https://github.com/cjoraeki/volunteer.git
-//        git push -u origin main
