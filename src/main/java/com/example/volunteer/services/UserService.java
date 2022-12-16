@@ -13,11 +13,11 @@ public class UserService {
 
     private final UserRepository userRepository;
 
-    public User createUser(SignUpRequest request){
-        User newUser = User.builder()
-                .name(request.getName())
-                .email(request.getEmail())
-                .password(request.getPassword()).build();
-        return userRepository.save(newUser);
-    }
+//    public User createUser(SignUpRequest request){
+//        User newUser = User.builder()
+//                .name(request.getName())
+//                .email(request.getEmail())
+//                .password(request.getPassword()).build();
+//        return userRepository.save(newUser);
+//    }
 }
